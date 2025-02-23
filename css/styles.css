@@ -1,49 +1,4 @@
 
-body.index h1 {
-    background-color: #4fbcdc;
-    color: white;
-    text-align: center;
-}
-
-body.index p {
-    color: #6ea483;
-}
-
-/* About page styles */
-body.about h2 {
-    background-color: #f9fedb;
-    color: #333;
-    text-align: left;
-}
-
-body.about p {
-    color: #5a8d9e;
-}
-
-
-body.contact-page {
-    font-family: Arial, sans-serif;
-    background-color: #d5e5f2;
-    padding: 20px;
-}
-
-body.contact-form label.name {
-    color: #f2e7ab;
-}
-
-body.contact-form label.email {
-    color: #f2e0ab;
-}
-
-body.contact-form label.subject {
-    color: #f2d2ab;
-}
-
-body.contact-form label.message {
-    color: #f2c8ab;
-}
-
-
 nav {
     background-color: #a4b3dd;
 }
@@ -55,4 +10,63 @@ nav a {
 
 nav a:hover {
     color: #3498db;
+}
+
+body.index h1 {
+    background-color: #4fbcdc;
+    color: white;
+    text-align: center;
+}
+
+body.index p {
+    color: #6ea483;
+}
+
+
+body.about h2 {
+    background-color: #f9fedb;
+    color: #333;
+    text-align: left;
+}
+
+body.about p {
+    color: #5a8d9e;
+}
+
+
+body.contact {
+    font-family: Arial, sans-serif;
+    background-color: #d5e5f2;
+    padding: 20px;
+}
+
+body.contact .contact-form label.name {
+    color: #f2e7ab;
+}
+
+body.contact .contact-form label.email {
+    color: #f2e0ab;
+}
+
+body.contact .contact-form label.subject {
+    color: #f2d2ab;
+}
+
+body.contact .contact-form label.message {
+    color: #f2c8ab;
+}
+
+/* Additional styles for better structure */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
 }
